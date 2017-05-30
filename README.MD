@@ -7,7 +7,7 @@ Usage:
 ```
 docker run \
   --network host \
-  -e ULTRAHOOK_TARGET_PORT=8080\
+  -e ULTRAHOOK_TARGET_PORT=http://localhost:8080\
   -e ULTRAHOOK_DOMAIN=stripe\
   -e ULTRAHOOK_KEY=XXXXXXXXXXXXX\
   ultrahook
